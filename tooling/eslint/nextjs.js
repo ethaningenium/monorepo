@@ -4,6 +4,7 @@ const config = {
   extends: ["plugin:@next/next/recommended", "next/core-web-vitals"],
   rules: {
     "@next/next/no-html-link-for-pages": "off",
+    "@typescript-eslint/require-await": "off",
   },
   // https://github.com/vercel/next.js/issues/40687#issuecomment-1421526821
   overrides: [

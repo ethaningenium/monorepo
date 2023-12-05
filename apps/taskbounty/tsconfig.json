@@ -1,21 +1,21 @@
 {
   "extends": "@taskbounty-app/tsconfig/next.json",
   "include": [
+    ".eslintrc.cjs",
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
+    "**/*.cjs",
+    "**/*.js",
     "jest.setup.js",
     ".next/types/**/*.ts"
   ],
-  "exclude": [
-    "node_modules"
-  ],
+  "exclude": ["node_modules"],
   "compilerOptions": {
     "baseUrl": ".", // This must be specified if "paths" is.
+    /* Path Aliases */
     "paths": {
-      "@ts-rest/core": [
-        "../../node_modules/@ts-rest/core/"
-      ]
+      "~/*": ["./src/*"]
     },
     "strictNullChecks": true,
     "plugins": [

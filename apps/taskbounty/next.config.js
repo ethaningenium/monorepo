@@ -1,5 +1,10 @@
+/**
+ * Run `build` or `dev` with `SKIP_ENV_VALIDATION` to skip env validation. This is especially useful
+ * for Docker builds.
+ */
+
 // Importing env files here to validate on build
-import "./src/env.mjs";
+import("./src/env.js");
 
 // import "@acme/auth/env.mjs";
 

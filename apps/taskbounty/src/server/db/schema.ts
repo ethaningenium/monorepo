@@ -11,8 +11,6 @@ import {
 
 import { mySqlTable } from "./_table";
 
-// export { mySqlTable as tableCreator } from "./schema/_table";
-
 const CUID_LENGTH = 128;
 
 export const posts = mySqlTable("posts", {
