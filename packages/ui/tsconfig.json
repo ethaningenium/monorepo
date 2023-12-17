@@ -1,5 +1,12 @@
 {
   "extends": "@taskbounty-app/tsconfig/react-library.json",
   "include": ["."],
-  "exclude": ["dist", "build", "node_modules"]
+  "exclude": ["dist", "build", "node_modules"],
+  "compilerOptions": {
+    "baseUrl": ".", // This must be specified if "paths" is.
+    /* Path Aliases */
+    "paths": {
+      "~/*": ["./*"]
+    }
+  }
 }
