@@ -5,6 +5,7 @@ const config = {
   rules: {
     "@next/next/no-html-link-for-pages": "off",
     "@typescript-eslint/require-await": "off",
+    "drizzle/enforce-update-with-where": "error",
   },
   // https://github.com/vercel/next.js/issues/40687#issuecomment-1421526821
   overrides: [
