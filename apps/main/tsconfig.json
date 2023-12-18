@@ -1,5 +1,5 @@
 {
-  "extends": "@taskbounty-app/tsconfig/next.json",
+  "extends": "@digitize-kz/tsconfig/next.json",
   "include": [
     ".eslintrc.cjs",
     "next-env.d.ts",

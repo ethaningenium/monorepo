@@ -1,5 +1,5 @@
 {
-  "name": "@taskbounty-app/tailwind-config",
+  "name": "@digitize-kz/tailwind-config",
   "version": "0.1.0",
   "private": true,
   "main": "index.ts",
@@ -19,9 +19,9 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "@taskbounty-app/eslint-config": "workspace:^0.1.0",
-    "@taskbounty-app/prettier-config": "workspace:^0.1.0",
-    "@taskbounty-app/tsconfig": "workspace:^0.1.0",
+    "@digitize-kz/eslint-config": "workspace:^0.1.0",
+    "@digitize-kz/prettier-config": "workspace:^0.1.0",
+    "@digitize-kz/tsconfig": "workspace:^0.1.0",
     "eslint": "^8.53.0",
     "prettier": "^3.1.0",
     "typescript": "^5.3.2"
@@ -29,8 +29,8 @@
   "eslintConfig": {
     "root": true,
     "extends": [
-      "@taskbounty-app/eslint-config/base"
+      "@digitize-kz/eslint-config/base"
     ]
   },
-  "prettier": "@taskbounty-app/prettier-config"
+  "prettier": "@digitize-kz/prettier-config"
 }

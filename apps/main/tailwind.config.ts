@@ -1,6 +1,5 @@
+import baseConfig from "@digitize-kz/tailwind-config";
 import type { Config } from "tailwindcss";
-
-import baseConfig from "@taskbounty-app/tailwind-config";
 
 export default {
   content: ["./src/**/*.{ts,tsx}"],

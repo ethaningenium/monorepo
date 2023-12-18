@@ -8,7 +8,7 @@ importers:
 
   .:
     devDependencies:
-      '@taskbounty-app/prettier-config':
+      '@digitize-kz/prettier-config':
         specifier: workspace:^0.1.0
         version: link:tooling/prettier
       '@turbo/gen':
@@ -69,19 +69,19 @@ importers:
       '@next/eslint-plugin-next':
         specifier: ^14.0.2
         version: 14.0.3
-      '@taskbounty-app/eslint-config':
+      '@digitize-kz/eslint-config':
         specifier: workspace:^0.1.0
         version: link:../../tooling/eslint
-      '@taskbounty-app/prettier-config':
+      '@digitize-kz/prettier-config':
         specifier: workspace:^0.1.0
         version: link:../../tooling/prettier
-      '@taskbounty-app/tailwind-config':
+      '@digitize-kz/tailwind-config':
         specifier: workspace:^0.1.0
         version: link:../../tooling/tailwind
-      '@taskbounty-app/tsconfig':
+      '@digitize-kz/tsconfig':
         specifier: workspace:^0.1.0
         version: link:../../tooling/typescript
-      '@taskbounty-app/ui':
+      '@digitize-kz/ui':
         specifier: workspace:^0.1.0
         version: link:../../packages/ui
       '@types/eslint':
@@ -151,19 +151,19 @@ importers:
         specifier: ^18
         version: 18.2.0(react@18.2.0)
     devDependencies:
-      '@taskbounty-app/eslint-config':
+      '@digitize-kz/eslint-config':
         specifier: workspace:^0.1.0
         version: link:../../tooling/eslint
-      '@taskbounty-app/prettier-config':
+      '@digitize-kz/prettier-config':
         specifier: workspace:^0.1.0
         version: link:../../tooling/prettier
-      '@taskbounty-app/tailwind-config':
+      '@digitize-kz/tailwind-config':
         specifier: workspace:^0.1.0
         version: link:../../tooling/tailwind
-      '@taskbounty-app/tsconfig':
+      '@digitize-kz/tsconfig':
         specifier: workspace:^0.1.0
         version: link:../../tooling/typescript
-      '@taskbounty-app/ui':
+      '@digitize-kz/ui':
         specifier: workspace:^0.1.0
         version: link:../../packages/ui
       '@types/node':
@@ -245,19 +245,19 @@ importers:
       '@next/eslint-plugin-next':
         specifier: ^14.0.2
         version: 14.0.3
-      '@taskbounty-app/eslint-config':
+      '@digitize-kz/eslint-config':
         specifier: workspace:^0.1.0
         version: link:../../tooling/eslint
-      '@taskbounty-app/prettier-config':
+      '@digitize-kz/prettier-config':
         specifier: workspace:^0.1.0
         version: link:../../tooling/prettier
-      '@taskbounty-app/tailwind-config':
+      '@digitize-kz/tailwind-config':
         specifier: workspace:^0.1.0
         version: link:../../tooling/tailwind
-      '@taskbounty-app/tsconfig':
+      '@digitize-kz/tsconfig':
         specifier: workspace:^0.1.0
         version: link:../../tooling/typescript
-      '@taskbounty-app/ui':
+      '@digitize-kz/ui':
         specifier: workspace:^0.1.0
         version: link:../../packages/ui
       '@types/eslint':
@@ -360,19 +360,19 @@ importers:
       '@next/eslint-plugin-next':
         specifier: ^14.0.2
         version: 14.0.3
-      '@taskbounty-app/eslint-config':
+      '@digitize-kz/eslint-config':
         specifier: workspace:^0.1.0
         version: link:../../tooling/eslint
-      '@taskbounty-app/prettier-config':
+      '@digitize-kz/prettier-config':
         specifier: workspace:^0.1.0
         version: link:../../tooling/prettier
-      '@taskbounty-app/tailwind-config':
+      '@digitize-kz/tailwind-config':
         specifier: workspace:^0.1.0
         version: link:../../tooling/tailwind
-      '@taskbounty-app/tsconfig':
+      '@digitize-kz/tsconfig':
         specifier: workspace:^0.1.0
         version: link:../../tooling/typescript
-      '@taskbounty-app/ui':
+      '@digitize-kz/ui':
         specifier: workspace:^0.1.0
         version: link:../../packages/ui
       '@types/eslint':
@@ -445,10 +445,10 @@ importers:
         specifier: ^1.0.7
         version: 1.0.7(tailwindcss@3.3.5)
     devDependencies:
-      '@taskbounty-app/eslint-config':
+      '@digitize-kz/eslint-config':
         specifier: workspace:^0.1.0
         version: link:../../tooling/eslint
-      '@taskbounty-app/tsconfig':
+      '@digitize-kz/tsconfig':
         specifier: workspace:^0.1.0
         version: link:../../tooling/typescript
       '@types/node':
@@ -515,10 +515,10 @@ importers:
         specifier: ^4.6.0
         version: 4.6.0(eslint@8.54.0)
     devDependencies:
-      '@taskbounty-app/prettier-config':
+      '@digitize-kz/prettier-config':
         specifier: workspace:^0.1.0
         version: link:../prettier
-      '@taskbounty-app/tsconfig':
+      '@digitize-kz/tsconfig':
         specifier: workspace:^0.1.0
         version: link:../typescript
       '@types/eslint':
@@ -545,7 +545,7 @@ importers:
         specifier: ^0.5.6
         version: 0.5.7(@ianvs/prettier-plugin-sort-imports@4.1.1)(prettier@3.1.0)
     devDependencies:
-      '@taskbounty-app/tsconfig':
+      '@digitize-kz/tsconfig':
         specifier: workspace:^0.1.0
         version: link:../typescript
       typescript:
@@ -564,13 +564,13 @@ importers:
         specifier: ^1.0.7
         version: 1.0.7(tailwindcss@3.3.5)
     devDependencies:
-      '@taskbounty-app/eslint-config':
+      '@digitize-kz/eslint-config':
         specifier: workspace:^0.1.0
         version: link:../eslint
-      '@taskbounty-app/prettier-config':
+      '@digitize-kz/prettier-config':
         specifier: workspace:^0.1.0
         version: link:../prettier
-      '@taskbounty-app/tsconfig':
+      '@digitize-kz/tsconfig':
         specifier: workspace:^0.1.0
         version: link:../typescript
       eslint:

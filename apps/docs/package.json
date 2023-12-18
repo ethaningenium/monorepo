@@ -1,5 +1,5 @@
 {
-  "name": "@taskbounty-app/docs",
+  "name": "@digitize-kz/docs",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
@@ -23,11 +23,11 @@
     "react-dom": "^18"
   },
   "devDependencies": {
-    "@taskbounty-app/tsconfig": "workspace:^0.1.0",
-    "@taskbounty-app/ui": "workspace:^0.1.0",
-    "@taskbounty-app/eslint-config": "workspace:^0.1.0",
-    "@taskbounty-app/prettier-config": "workspace:^0.1.0",
-    "@taskbounty-app/tailwind-config": "workspace:^0.1.0",
+    "@digitize-kz/tsconfig": "workspace:^0.1.0",
+    "@digitize-kz/ui": "workspace:^0.1.0",
+    "@digitize-kz/eslint-config": "workspace:^0.1.0",
+    "@digitize-kz/prettier-config": "workspace:^0.1.0",
+    "@digitize-kz/tailwind-config": "workspace:^0.1.0",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "@types/node": "20.10.0",
@@ -41,10 +41,10 @@
   "eslintConfig": {
     "root": true,
     "extends": [
-      "@taskbounty-app/eslint-config/base",
-      "@taskbounty-app/eslint-config/nextjs",
-      "@taskbounty-app/eslint-config/react"
+      "@digitize-kz/eslint-config/base",
+      "@digitize-kz/eslint-config/nextjs",
+      "@digitize-kz/eslint-config/react"
     ]
   },
-  "prettier": "@taskbounty-app/prettier-config"
+  "prettier": "@digitize-kz/prettier-config"
 }

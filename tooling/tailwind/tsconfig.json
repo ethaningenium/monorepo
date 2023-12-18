@@ -1,5 +1,5 @@
 {
-  "extends": "@taskbounty-app/tsconfig/base.json",
+  "extends": "@digitize-kz/tsconfig/base.json",
   "compilerOptions": {},
   "include": ["."],
   "exclude": ["node_modules"]

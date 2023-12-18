@@ -1,5 +1,5 @@
 {
-  "extends": "@taskbounty-app/tsconfig/react-library.json",
+  "extends": "@digitize-kz/tsconfig/react-library.json",
   "include": ["."],
   "exclude": ["dist", "build", "node_modules"],
   "compilerOptions": {

@@ -1,5 +1,5 @@
 {
-  "name": "@taskbounty-app/prettier-config",
+  "name": "@digitize-kz/prettier-config",
   "private": true,
   "version": "0.1.0",
   "main": "index.mjs",
@@ -14,14 +14,14 @@
     "prettier-plugin-tailwindcss": "^0.5.6"
   },
   "devDependencies": {
-    "@taskbounty-app/tsconfig": "workspace:^0.1.0",
+    "@digitize-kz/tsconfig": "workspace:^0.1.0",
     "typescript": "^5.3.2"
   },
   "eslintConfig": {
     "root": true,
     "extends": [
-      "@taskbounty-app/eslint-config/base"
+      "@digitize-kz/eslint-config/base"
     ]
   },
-  "prettier": "@taskbounty-app/prettier-config"
+  "prettier": "@digitize-kz/prettier-config"
 }

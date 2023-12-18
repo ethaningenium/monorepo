@@ -1,5 +1,5 @@
 {
-  "name": "@taskbounty-app/ui",
+  "name": "@digitize-kz/ui",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -8,8 +8,8 @@
     "clean": "git clean -xdf dist .turbo node_modules *.tsbuildinfo"
   },
   "devDependencies": {
-    "@taskbounty-app/eslint-config": "workspace:^0.1.0",
-    "@taskbounty-app/tsconfig": "workspace:^0.1.0",
+    "@digitize-kz/eslint-config": "workspace:^0.1.0",
+    "@digitize-kz/tsconfig": "workspace:^0.1.0",
     "@types/node": "20.10.0",
     "@types/react": "^18",
     "@types/react-dom": "^18",
@@ -31,8 +31,8 @@
   "eslintConfig": {
     "root": true,
     "extends": [
-      "@taskbounty-app/eslint-config/base"
+      "@digitize-kz/eslint-config/base"
     ]
   },
-  "prettier": "@taskbounty-app/prettier-config"
+  "prettier": "@digitize-kz/prettier-config"
 }

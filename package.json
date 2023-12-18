@@ -25,7 +25,7 @@
     "ui:add": "pnpm --filter ui ui:add"
   },
   "devDependencies": {
-    "@taskbounty-app/prettier-config": "workspace:^0.1.0",
+    "@digitize-kz/prettier-config": "workspace:^0.1.0",
     "@turbo/gen": "^1.10.16",
     "turbo": "^1.10.16"
   },

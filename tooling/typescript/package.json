@@ -1,5 +1,5 @@
 {
-  "name": "@taskbounty-app/tsconfig",
+  "name": "@digitize-kz/tsconfig",
   "private": true,
   "version": "0.1.0",
   "files": [
@@ -8,8 +8,8 @@
   "eslintConfig": {
     "root": true,
     "extends": [
-      "@taskbounty-app/eslint-config/base"
+      "@digitize-kz/eslint-config/base"
     ]
   },
-  "prettier": "@taskbounty-app/prettier-config"
+  "prettier": "@digitize-kz/prettier-config"
 }

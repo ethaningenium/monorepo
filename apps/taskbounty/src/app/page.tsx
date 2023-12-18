@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { Button } from "@taskbounty-app/ui/components/ui/button";
+import { Button } from "@digitize-kz/ui/components/ui/button";
 
 import { CreatePost } from "~/app/_components/create-post";
 import { api } from "~/trpc/server";
