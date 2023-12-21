@@ -8,7 +8,7 @@
     "build": "pnpm with-env next build",
     "db:push": "dotenv drizzle-kit push:mysql",
     "db:studio": "dotenv drizzle-kit studio",
-    "dev": "pnpm with-env next dev",
+    "dev": "pnpm with-env next dev -p 3000",
     "lint": "dotenv -v SKIP_ENV_VALIDATION=1 next lint",
     "format": "prettier --check . --ignore-path ../../.gitignore",
     "clean": "git clean -xdf .next .turbo node_modules",
